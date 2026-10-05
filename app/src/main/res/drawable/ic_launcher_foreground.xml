@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Golden Wings - Left Wing -->
+    <path
+        android:pathData="M43,50 C38,45 31,43 25,48 C28,54 34,57 41,58 C35,60 29,64 27,70 C33,72 38,70 43,65 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="25"
+                android:startY="43"
+                android:endX="43"
+                android:endY="70"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFE885" />
+                <item android:offset="0.6" android:color="#D4AF37" />
+                <item android:offset="1.0" android:color="#996515" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Golden Wings - Right Wing -->
+    <path
+        android:pathData="M65,50 C70,45 77,43 83,48 C80,54 74,57 67,58 C73,60 79,64 81,70 C75,72 70,70 65,65 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="65"
+                android:startY="43"
+                android:endX="83"
+                android:endY="70"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFE885" />
+                <item android:offset="0.6" android:color="#D4AF37" />
+                <item android:offset="1.0" android:color="#996515" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Perfume Cap - Golden Crown / Stopper -->
+    <path
+        android:pathData="M50,28 L58,28 L57,34 L51,34 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="50"
+                android:startY="28"
+                android:endX="58"
+                android:endY="34"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFF2A3" />
+                <item android:offset="0.5" android:color="#D4AF37" />
+                <item android:offset="1.0" android:color="#AA771C" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Spray Collar -->
+    <path
+        android:pathData="M49,34 L59,34 L58,38 L50,38 Z"
+        android:fillColor="#F0C555" />
+
+    <!-- Perfume Bottle Shoulders and Body -->
+    <path
+        android:pathData="M46,40 L62,40 C65,40 68,43 68,46 L67,73 C67,76 64,78 61,78 L47,78 C44,78 41,76 41,73 L40,46 C40,43 43,40 46,40 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="40"
+                android:startY="40"
+                android:endX="68"
+                android:endY="78"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFF8D6" />
+                <item android:offset="0.3" android:color="#F3C647" />
+                <item android:offset="0.7" android:color="#C48E1D" />
+                <item android:offset="1.0" android:color="#78500C" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Glass Facet Highlights Inside Flacon -->
+    <path
+        android:pathData="M44,45 L64,45 L63,71 L45,71 Z"
+        android:fillAlpha="0.25">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="44"
+                android:startY="45"
+                android:endX="64"
+                android:endY="71"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFFFFF" />
+                <item android:offset="1.0" android:color="#D4AF37" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Golden Emblem Crest on Bottle Center -->
+    <path
+        android:pathData="M54,52 L58,56 L54,64 L50,56 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="50"
+                android:startY="52"
+                android:endX="58"
+                android:endY="64"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFFFFF" />
+                <item android:offset="0.5" android:color="#FFE57F" />
+                <item android:offset="1.0" android:color="#AA771C" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Brand Label Accent Line -->
+    <path
+        android:pathData="M47,66 L61,66"
+        android:strokeWidth="1.2"
+        android:strokeColor="#FFFFFF"
+        android:strokeAlpha="0.7" />
+</vector>

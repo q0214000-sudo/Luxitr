@@ -1,0 +1,6 @@
+{
+  "name": "LUXITR",
+  "description": "Luxury perfume brand app featuring LUXYS AI fragrance intelligence, Find My Perfume quiz, bespoke perfume catalog, and direct seamless purchase from luxitr.com.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
